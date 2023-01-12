@@ -17,7 +17,7 @@ const Nav = () => {
 
         <div className="nav-header">
           <Link to="/">
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo"  />
           </Link>
           <button type="button" className="nav-toggle" onClick={ () => openSidebar() }>
               <FaBars/>
@@ -57,7 +57,7 @@ const NavContainer = styled.nav`
     align-items: center;
     justify-content: space-between;
     img {
-      width: 175px;
+      width: 120px;
       margin-left: -15px;
     }
   }
